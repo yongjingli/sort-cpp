@@ -2,7 +2,9 @@
 1. add person_detect_tracker.cpp and person_detect_tracker.hpp, to get PersonTrackerSort
 2. if use opencv3, kf.transitionMatrix = *(Mat_<float>(stateNum, stateNum) << 1, 0, 0, 0, 1, 0, 0, need to modify to 
    kf.transitionMatrix = (Mat_<float>(stateNum, stateNum) << 1, 0, 0, 0, 1, 0, 0, in KalmanTracker.cpp
-
+3. modify KalmanTracker.cpp and KalmanTracker.hpp for deploy project
+4. modify Hungarian.cpp and Hungarian.hpp for deploy project   
+   
 ### Introduction
 
 This is a C++ implementation of SORT, a simple online and realtime tracking algorithm for 2D multiple object tracking in video sequences.
