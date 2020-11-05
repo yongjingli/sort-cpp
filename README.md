@@ -1,7 +1,7 @@
 ## Updata by YongjingLi
 1. add person_detect_tracker.cpp and person_detect_tracker.hpp, to get PersonTrackerSort
 2. if use opencv3, kf.transitionMatrix = *(Mat_<float>(stateNum, stateNum) << 1, 0, 0, 0, 1, 0, 0, need to modify to 
-   kf.transitionMatrix = (Mat_<float>(stateNum, stateNum) << 1, 0, 0, 0, 1, 0, 0,
+   kf.transitionMatrix = (Mat_<float>(stateNum, stateNum) << 1, 0, 0, 0, 1, 0, 0, in KalmanTracker.cpp
 
 ### Introduction
 
